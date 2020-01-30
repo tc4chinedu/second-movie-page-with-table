@@ -1,0 +1,32 @@
+body {
+	color: white;
+	font-family: Arial, Helvetica, Times, serif;
+}
+
+.backg {
+	background-image: linear-gradient(to right, rgba(0,0,0,0.8),
+              rgba(0,0,0,0.8)), url(img/superbg.jfif);
+	background-size: cover;
+	border: 8px dotted black;
+	background-clip: padding-box;
+
+}
+
+.padit {
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+.btn {
+	background-color: red;
+	padding: 8px;
+	color: white;
+	width: 150px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.btn:hover {
+  background-color: blue;
+}
